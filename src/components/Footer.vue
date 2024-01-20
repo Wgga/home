@@ -1,0 +1,149 @@
+<template>
+    <footer id="footer" :class="store.footerBlur ? 'blur' : null">
+        <Transition name="fade" mode="out-in">
+            <!-- v-if="!store.playerState || !store.playerLrcShow" -->
+            <div class="power">
+                <!-- <span class="startdate">
+                    Copyright&nbsp;&copy;
+                    <span v-if="siteStartDate?.length >= 4" class="site-start">
+                        {{ siteStartDate.substring(0, 4) }}
+                        -
+                        {{ fullYear }}
+                    </span>
+                    <a :href="siteUrl">{{ siteAnthor }}</a>
+                </span> -->
+                <!-- 以下信息请不要修改哦 -->
+                <span class="hidden">
+                    &nbsp;Made&nbsp;by
+                    <a :href="config.github" target="_blank" class="pointer">
+                        {{ config.author }}
+                    </a>
+                    &nbsp;
+                </span>
+                <!-- 站点备案 -->
+                <a v-if="siteICP" href="https://beian.miit.gov.cn" target="_blank" class="pointer">
+                    {{ siteICP }}
+                    &nbsp;
+                </a>
+                <a v-if="sitePNS" href="" target="_blank" class="pointer">
+                    <img src="https://www.seoshipin.cn/wp-content/uploads/beian.png">
+                    {{ sitePNS }}
+                </a>
+                <div v-if="store.playerState && store.playerLrcShow" class="lrc">
+                    <Transition name="fade" mode="out-in">
+                        <div class="lrc-all" :key="store.getPlayerLrc">
+                            <music-one theme="filled" size="18" fill="#efefef" />
+                            <span class="lrc-text text-hidden" v-html="store.getPlayerLrc" />
+                            <music-one theme="filled" size="18" fill="#efefef" />
+                        </div>
+                    </Transition>
+                </div>
+            </div>
+        </Transition>
+    </footer>
+</template>
+
+<script setup>
+import { MusicOne } from "@icon-park/vue-next";
+import { mainStore } from "@/store";
+import config from "@/../package.json";
+
+const store = mainStore();
+const fullYear = new Date().getFullYear();
+
+// 加载配置数据
+const siteStartDate = ref(import.meta.env.VITE_SITE_START);
+const siteICP = ref(import.meta.env.VITE_SITE_ICP);
+const sitePNS = ref(import.meta.env.VITE_SITE_PNS);
+const siteAnthor = ref(import.meta.env.VITE_SITE_ANTHOR);
+const siteUrl = computed(() => {
+    const url = import.meta.env.VITE_SITE_URL;
+    if (!url) return "https://www.imsyy.top";
+    // 判断协议前缀
+    if (!url.startsWith("http://") && !url.startsWith("https://")) {
+        return "//" + url;
+    }
+    return url;
+});
+</script>
+
+<style lang="scss" scoped>
+#footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    z-index: 0;
+    font-size: 14px;
+
+    .pointer {
+        cursor: pointer !important;
+    }
+
+    .power {
+        animation: fade 0.3s;
+    }
+
+    .lrc {
+        position: absolute;
+        bottom: 46px;
+        left: 0;
+        right: 0;
+        padding: 0 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        .lrc-all {
+            width: 98%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            .lrc-text {
+                margin: 0 8px;
+            }
+
+            .i-icon {
+                width: 18px;
+                height: 18px;
+                display: inherit;
+            }
+        }
+    }
+
+    &.blur {
+        backdrop-filter: blur(10px);
+        background: rgb(0 0 0 / 25%);
+        font-size: 16px;
+    }
+
+    .fade-enter-active,
+    .fade-leave-active {
+        transition: opacity 0.15s ease-in-out;
+    }
+
+    @media (max-width: 720px) {
+        font-size: 0.85rem;
+
+        &.blur {
+            font-size: 0.85rem;
+        }
+
+        .startdate {
+            display: none;
+        }
+    }
+
+    @media (max-width: 310px) {
+        .hidden {
+            display: none;
+        }
+    }
+}
+</style>

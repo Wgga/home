@@ -1,0 +1,32 @@
+[
+	{
+		"name": "Github",
+		"icon": "/images/icon/github.png",
+		"tip": "去 Github 看看",
+		"url": "https://github.com/Wgga"
+	},
+	{
+		"name": "BiliBili",
+		"icon": "/images/icon/bilibili.png",
+		"tip": "つロ 干杯 ~",
+		"url": "https://space.bilibili.com/431374124"
+	},
+	{
+		"name": "Weibo",
+		"icon": "/images/icon/weibo.png",
+		"tip": "随时随地发现新鲜事",
+		"url": "https://weibo.com/u/6148797064"
+	},
+	{
+		"name": "QQ",
+		"icon": "/images/icon/qq.png",
+		"tip": "轻松做自己",
+		"url": "https://res.abeim.cn/api/qq/?qq=2667522657"
+	},
+	{
+		"name": "Email",
+		"icon": "/images/icon/email.png",
+		"tip": "来封 Email ~",
+		"url": "mailto:wl2667522657@163.com"
+	}
+]
