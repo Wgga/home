@@ -2,6 +2,12 @@ English | [Chinese](./README.md)
 
 <strong>This library is ported to [imsyy](https://github.com/imsyy) God [home](https://github.com/imsyy/home) Public, make partial adjustments to the original version to meet personal needs.</strong>
 
+###New modification function added
+- [ ] Using the [qweather API](https://dev.qweather.com/) to display real-time weather, seven day weather, etc. (under development)
+
+- [x] Added custom mouse pointer, sourced from [custom cursor](https://custom-cursor.com/)
+
+
 >The logo font on the home page has been compressed, so if you use a font other than this logo, it will change back to the default font, Here is the [full font](https://file.4everland.app/font/Other/Pacifico-Regular.ttf)
 
 ### Functions

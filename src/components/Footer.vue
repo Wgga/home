@@ -16,7 +16,7 @@
                 <span class="hidden">
                     &nbsp;Made&nbsp;by
                     <a :href="config.github" target="_blank" class="pointer">
-                        {{ config.author }}
+                        {{ siteAnthor }}
                     </a>
                     &nbsp;
                 </span>
