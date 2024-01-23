@@ -129,6 +129,7 @@ watch(
             .logo-img {
                 width: 100px;
             }
+
             .name {
                 height: 128px;
 
@@ -149,6 +150,7 @@ watch(
         @media (max-width: 930px) {
             .name {
                 height: 100px;
+
                 .bg {
                     font-size: 3rem;
                 }

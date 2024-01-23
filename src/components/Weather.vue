@@ -16,16 +16,23 @@
         <div class="weather_top">
             <div class="top_left">
                 <span class="weather_city" v-if="weatherData.adCode.city">{{ weatherData.adCode.city }}&nbsp;</span>
-                <span class="weather_temp" v-if="weatherData.nowweather.temp">{{ weatherData.nowweather.temp }}<em>℃</em></span>
+                <span class="weather_temp" v-if="weatherData.nowweather.temp">{{ weatherData.nowweather.temp
+                }}<em>℃</em></span>
             </div>
             <div class="top_right">
-                <span class="weather_text">{{ weatherData.nowweather.text }}</span>
-                <i class="weather_icon" :class="'qi-' + weatherData.nowweather.icon"></i>
+                <div>
+                    <span class="weather_text">{{ weatherData.nowweather.text }}</span>
+                    <i class="weather_icon" :class="'qi-' + weatherData.nowweather.icon"></i>
+                </div>
+                <div class="current_temp">
+                    <span class="maxtemp">最低{{ weatherData.nowweather.currentDate?.tempMin }}℃</span>
+                    <span class="mintemp">最高{{ weatherData.nowweather.currentDate?.tempMax }}℃</span>
+                </div>
             </div>
         </div>
         <div class="weather_bottom">
-            <div class="sevenD_weather" v-for="x in weatherData.sevenDWeather" :key="x.fxDate">
-                <span class="weather_text">{{ x.fxDate }}</span>
+            <div class="sevenD_weather" v-for="x in weatherData.sevenDWeather.slice(1, 7)" :key="x.fxDate">
+                <span class="weather_text">{{ x.formatfxDate }}</span>
                 <i class="sevenD_weather_icon" :class="'qi-' + x.iconDay"></i>
                 <span class="sevenD_temp_con">
                     <span class="maxtemp">{{ x.tempMin }}</span>~<span class="mintemp">{{ x.tempMax }}</span>
@@ -43,7 +50,7 @@ import { getAdcode, getWeather, getOtherWeather, getnowWeather, getCity, getseve
 import { mainStore } from "@/store";
 import { storeToRefs } from "pinia";
 import { Error } from "@icon-park/vue-next";
-import { getFormatTimes } from "@/utils/getTime.js";
+import { getFormatTimes, isSameDate } from "@/utils/getTime.js";
 import { setItemWithExpiration, getItemWithExpiration } from "@/utils/localforage.js";
 const store = mainStore();
 const {
@@ -85,7 +92,8 @@ const weatherData = reactive({
         pressure: null, // 大气压强
         vis: null,  // 能见度
         cloud: null, // 天气云量
-        dew: null // 露点温度
+        dew: null, // 露点温度
+        currentDate: null, // 当前日期
     },
     sevenDWeather: [],
 });
@@ -158,7 +166,8 @@ const getWeatherData = async () => {
             // 获取和风城市7天天气信息
             const sevenDresult = await getsevenDWeather(QmainKey, weatherData.cityInfo.id);
             if (sevenDresult.code == '200') {
-                weatherData.sevenDWeather = getFormatTimes(sevenDresult.daily).slice(0, 6);
+                weatherData.sevenDWeather = getFormatTimes(sevenDresult.daily);
+                weatherData.nowweather.currentDate = isSameDate(sevenDresult.daily);
             }
 
             // 设置缓存数据
@@ -238,13 +247,27 @@ onMounted(() => {
 
         .top_right {
             display: flex;
-            align-items: center;
-            margin-top: 5px;
+            align-items: flex-end;
+            flex-direction: column;
             margin-right: 5px;
 
             .weather_icon {
                 font-size: 20px;
                 margin-left: 5px;
+            }
+
+            >div {
+                display: flex;
+                align-items: center;
+            }
+
+            .current_temp {
+                font-size: 12px;
+                margin-top: 8px;
+            }
+
+            .maxtemp {
+                margin-right: 5px;
             }
         }
     }
@@ -264,14 +287,16 @@ onMounted(() => {
             flex-direction: column;
         }
 
+        .sevenD_temp_con {
+            display: flex;
+            align-items: center;
+            font-size: 13px;
+        }
+
         @media (max-width: 950px) {
             .sevenD_weather:nth-child(6) {
                 display: none;
             }
-        }
-
-        .sevenD_temp_con {
-            font-size: 13px;
         }
     }
 }

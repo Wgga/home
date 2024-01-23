@@ -80,6 +80,8 @@ onMounted(() => {
             message: "为了浏览体验，本站禁用右键",
             grouping: true,
             duration: 2000,
+            appendTo: "#main",
+            customClass: "message-toast",
         });
         return false;
     };
@@ -91,6 +93,8 @@ onMounted(() => {
     // 			message: "为了浏览体验，本站禁用控制台",
     // 			grouping: true,
     // 			duration: 2000,
+    //          appendTo: "#main",
+    //          customClass: "message-toast",
     // 		});
     // 		return false;
     // 	}
@@ -103,6 +107,8 @@ onMounted(() => {
             ElMessage({
                 message: `已${store.backgroundShow ? "开启" : "退出"}壁纸展示状态`,
                 grouping: true,
+                appendTo: "#main",
+                customClass: "message-toast",
             });
         }
     });
@@ -123,7 +129,7 @@ onMounted(() => {
 |/__\\| |/__\\| |/__\\| |/__\\| |/__\\| |/__\\| |/__\\| |/__\\| |/__\\| |/__\\| |/__\\| |/__\\|
 `;
     const content = `\n\n版本: ${config.version}\n主页: ${config.home}\nGithub: ${config.github}`;
-    // console.info(`%c${title1} %c${title2}`, styleTitle1, styleTitle2);
+    console.info(`%c${title1} %c${title2}`, styleTitle1, styleTitle2);
 });
 
 onBeforeUnmount(() => {

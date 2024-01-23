@@ -28,11 +28,19 @@ export const getFormatTimes = (data) => {
     const formatData = data.map(item => {
         return {
             ...item,
-            fxDate: dayjs(item.fxDate).format("ddd")
+            formatfxDate: dayjs(item.fxDate).format("ddd")
         };
     });
     return formatData;
 };
+
+export const isSameDate = (data) => {
+    const currentDate = data.filter(item => {
+        return dayjs().isSame(item.fxDate,'day');
+    })
+    return currentDate[0];
+};
+
 
 // 时光胶囊
 export const getTimeCapsule = () => {

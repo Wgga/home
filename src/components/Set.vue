@@ -266,4 +266,5 @@ const cursorChange = () => {
             }
         }
     }
-}</style>
+}
+</style>
