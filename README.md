@@ -1,7 +1,7 @@
 简体中文 | [English](./README_EN.md)
 
 ### 说明
-<strong>本库移植于[imsyy](https://github.com/imsyy)大神的 [home](https://github.com/imsyy/home) Public，对原版进行部分调整，以满足个人需求，如有需要请看原版。</strong>
+<strong>本库移植于[imsyy](https://github.com/imsyy)大神的 [home](https://github.com/imsyy/home) Public，对原版进行部分调整，以满足个人需求，感兴趣者请前往原版Public。</strong>
 
 ### 新增修改功能
 - [ ] 使用[和风天气API](https://dev.qweather.com/)显示实时天气、七天天气等（正在开发中）
