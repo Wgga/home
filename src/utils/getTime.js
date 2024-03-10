@@ -24,6 +24,29 @@ export const getCurrentTime = () => {
     return currentTime;
 };
 
+// 使用dayjs计算时钟
+/* export const getdayjsCurrentTime = () => {
+    let time = dayjs();
+    let year = dayjs().year();
+    let month = dayjs().month() + 1 < 10 ? "0" + (dayjs().month() + 1) : dayjs().month() + 1;
+    let day = dayjs().date() < 10 ? "0" + dayjs().date() : dayjs().date();
+    let hour = dayjs().hour() < 10 ? "0" + dayjs().hour() : dayjs().hour();
+    let minute = dayjs().minute() < 10 ? "0" + dayjs().minute() : dayjs().minute();
+    let second = dayjs().second() < 10 ? "0" + dayjs().second() : dayjs().second();
+    let weekday = ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"];
+    let currentTime = {
+        year,
+        month,
+        day,
+        hour,
+        minute,
+        second,
+        weekday: weekday[dayjs().day()],
+    };
+    return currentTime;
+}; */
+
+
 export const getFormatTimes = (data) => {
     const formatData = data.map(item => {
         return {

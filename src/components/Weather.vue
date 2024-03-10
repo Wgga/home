@@ -22,7 +22,7 @@
             <div class="top_right">
                 <div>
                     <span class="weather_text">{{ weatherData.nowweather.text }}</span>
-                    <i class="weather_icon" :class="'qi-' + weatherData.nowweather.icon"></i>
+                    <i class="weather_icon" :class="'qi-' + weatherData.nowweather.icon + '-fill'"></i>
                 </div>
                 <div class="current_temp">
                     <span class="maxtemp">最低{{ weatherData.nowweather.currentDate?.tempMin }}℃</span>
@@ -33,7 +33,7 @@
         <div class="weather_bottom">
             <div class="sevenD_weather" v-for="x in weatherData.sevenDWeather.slice(1, 7)" :key="x.fxDate">
                 <span class="weather_text">{{ x.formatfxDate }}</span>
-                <i class="sevenD_weather_icon" :class="'qi-' + x.iconDay"></i>
+                <i class="sevenD_weather_icon" :class="'qi-' + x.iconDay + '-fill'"></i>
                 <span class="sevenD_temp_con">
                     <span class="maxtemp">{{ x.tempMin }}</span>~<span class="mintemp">{{ x.tempMax }}</span>
                 </span>
