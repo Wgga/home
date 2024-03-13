@@ -46,7 +46,7 @@ class Cursor {
 		}
 
 		var el = document.getElementsByTagName("*");
-		for (let i = 0; i < el.length; i++){
+		for (let i = 0; i < el.length; i++) {
 			if (getStyle(el[i], "cursor") == "pointer") this.pt.push(el[i].outerHTML);
 		}
 
@@ -55,12 +55,12 @@ class Cursor {
 
 	// 设置鼠标指针外观
 	setCursor() {
-		if(this.scr) this.scr.remove();
-        nextTick(() => {
-            const data = JSON.parse(window.localStorage.getItem("data"));
-            const cursorId = data.cursorId.split("-");
-            document.body.appendChild((this.scr = document.createElement("style")));
-            this.scr.innerHTML = `* {cursor: url("/images/cursor/${data.cursorTab}/${cursorId[0]}/${cursorId[1]}.ico"), auto !important}`;
+		if (this.scr) this.scr.remove();
+		nextTick(() => {
+			const data = JSON.parse(window.localStorage.getItem("data"));
+			const cursorId = data.cursorId.split("-");
+			document.body.appendChild((this.scr = document.createElement("style")));
+			this.scr.innerHTML = `* {cursor: url("/images/cursor/${data.cursorTab}/${cursorId[0]}/${cursorId[1]}.ico"), auto !important}`;
 		});
 	}
 
@@ -104,4 +104,4 @@ class Cursor {
 	}
 }
 
-export { cursorInit , getmainCursor };
+export { cursorInit, getmainCursor };

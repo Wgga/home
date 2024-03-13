@@ -65,4 +65,5 @@ const siteUrl = computed(() => {
 			display: none;
 		}
 	}
-}</style>
+}
+</style>

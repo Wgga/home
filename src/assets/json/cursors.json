@@ -1,646 +1,646 @@
 [
-    {
-        "id": 1,
-        "cnname": "龙珠",
-        "enname": "DragonBall",
-        "items": [
-            {
-                "id": "1608",
-                "cnname": "比鲁斯",
-                "enname": "Beerus",
-                "logo": "/images/cursor/DragonBall/1608/cursors-logo.png",
-                "arrow": "/images/cursor/DragonBall/1608/Arrow.ico",
-                "hand": "/images/cursor/DragonBall/1608/Hand.ico"
-            },
-            {
-                "id": "1650",
-                "cnname": "那巴",
-                "enname": "Nappa",
-                "logo": "/images/cursor/DragonBall/1650/cursors-logo.png",
-                "arrow": "/images/cursor/DragonBall/1650/Arrow.ico",
-                "hand": "/images/cursor/DragonBall/1650/Hand.ico"
-            },
-            {
-                "id": "1793",
-                "cnname": "弗利萨",
-                "enname": "Frieza",
-                "logo": "/images/cursor/DragonBall/1793/cursors-logo.png",
-                "arrow": "/images/cursor/DragonBall/1793/Arrow.ico",
-                "hand": "/images/cursor/DragonBall/1793/Hand.ico"
-            },
-            {
-                "id": "1861",
-                "cnname": "吉连",
-                "enname": "Jiren",
-                "logo": "/images/cursor/DragonBall/1861/cursors-logo.png",
-                "arrow": "/images/cursor/DragonBall/1861/Arrow.ico",
-                "hand": "/images/cursor/DragonBall/1861/Hand.ico"
-            },
-            {
-                "id": "1867",
-                "cnname": "短笛",
-                "enname": "Piccolo",
-                "logo": "/images/cursor/DragonBall/1867/cursors-logo.png",
-                "arrow": "/images/cursor/DragonBall/1867/Arrow.ico",
-                "hand": "/images/cursor/DragonBall/1867/Hand.ico"
-            },
-            {
-                "id": "3252",
-                "cnname": "特兰克斯",
-                "enname": "Trunks",
-                "logo": "/images/cursor/DragonBall/3252/cursors-logo.png",
-                "arrow": "/images/cursor/DragonBall/3252/Arrow.ico",
-                "hand": "/images/cursor/DragonBall/3252/Hand.ico"
-            },
-            {
-                "id": "3866",
-                "cnname": "全王",
-                "enname": "Zeno",
-                "logo": "/images/cursor/DragonBall/3866/cursors-logo.png",
-                "arrow": "/images/cursor/DragonBall/3866/Arrow.ico",
-                "hand": "/images/cursor/DragonBall/3866/Hand.ico"
-            },
-            {
-                "id": "4042",
-                "cnname": "沙鲁",
-                "enname": "Cell",
-                "logo": "/images/cursor/DragonBall/4042/cursors-logo.png",
-                "arrow": "/images/cursor/DragonBall/4042/Arrow.ico",
-                "hand": "/images/cursor/DragonBall/4042/Hand.ico"
-            },
-            {
-                "id": "4103",
-                "cnname": "格兰诺拉",
-                "enname": "Granolah",
-                "logo": "/images/cursor/DragonBall/4103/cursors-logo.png",
-                "arrow": "/images/cursor/DragonBall/4103/Arrow.ico",
-                "hand": "/images/cursor/DragonBall/4103/Hand.ico"
-            },
-            {
-                "id": "435",
-                "cnname": "孙悟空",
-                "enname": "Goku",
-                "logo": "/images/cursor/DragonBall/435/cursors-logo.png",
-                "arrow": "/images/cursor/DragonBall/435/Arrow.ico",
-                "hand": "/images/cursor/DragonBall/435/Hand.ico"
-            },
-            {
-                "id": "4356",
-                "cnname": "贝吉塔",
-                "enname": "Vegeta",
-                "logo": "/images/cursor/DragonBall/4356/cursors-logo.png",
-                "arrow": "/images/cursor/DragonBall/4356/Arrow.ico",
-                "hand": "/images/cursor/DragonBall/4356/Hand.ico"
-            },
-            {
-                "id": "4398",
-                "cnname": "小悟空",
-                "enname": "Kid Goku",
-                "logo": "/images/cursor/DragonBall/4398/cursors-logo.png",
-                "arrow": "/images/cursor/DragonBall/4398/Arrow.ico",
-                "hand": "/images/cursor/DragonBall/4398/Hand.ico"
-            },
-            {
-                "id": "4720",
-                "cnname": "克林",
-                "enname": "Krillin",
-                "logo": "/images/cursor/DragonBall/4720/cursors-logo.png",
-                "arrow": "/images/cursor/DragonBall/4720/Arrow.ico",
-                "hand": "/images/cursor/DragonBall/4720/Hand.ico"
-            },
-            {
-                "id": "4974",
-                "cnname": "坏悟空",
-                "enname": "Bad Goku",
-                "logo": "/images/cursor/DragonBall/4974/cursors-logo.png",
-                "arrow": "/images/cursor/DragonBall/4974/Arrow.ico",
-                "hand": "/images/cursor/DragonBall/4974/Hand.ico"
-            },
-            {
-                "id": "5836",
-                "cnname": "佳斯",
-                "enname": "Gas",
-                "logo": "/images/cursor/DragonBall/5836/cursors-logo.png",
-                "arrow": "/images/cursor/DragonBall/5836/Arrow.ico",
-                "hand": "/images/cursor/DragonBall/5836/Hand.ico"
-            },
-            {
-                "id": "6367",
-                "cnname": "维斯",
-                "enname": "Whis",
-                "logo": "/images/cursor/DragonBall/6367/cursors-logo.png",
-                "arrow": "/images/cursor/DragonBall/6367/Arrow.ico",
-                "hand": "/images/cursor/DragonBall/6367/Hand.ico"
-            },
-            {
-                "id": "6547",
-                "cnname": "阿纳特",
-                "enname": "Anato",
-                "logo": "/images/cursor/DragonBall/6547/cursors-logo.png",
-                "arrow": "/images/cursor/DragonBall/6547/Arrow.ico",
-                "hand": "/images/cursor/DragonBall/6547/Hand.ico"
-            },
-            {
-                "id": "6722",
-                "cnname": "海德博士",
-                "enname": "Dr. Hedo",
-                "logo": "/images/cursor/DragonBall/6722/cursors-logo.png",
-                "arrow": "/images/cursor/DragonBall/6722/Arrow.ico",
-                "hand": "/images/cursor/DragonBall/6722/Hand.ico"
-            },
-            {
-                "id": "6769",
-                "cnname": "茨莱",
-                "enname": "Cheelai",
-                "logo": "/images/cursor/DragonBall/6769/cursors-logo.png",
-                "arrow": "/images/cursor/DragonBall/6769/Arrow.ico",
-                "hand": "/images/cursor/DragonBall/6769/Hand.ico"
-            },
-            {
-                "id": "6887",
-                "cnname": "布尔玛",
-                "enname": "Bulma",
-                "logo": "/images/cursor/DragonBall/6887/cursors-logo.png",
-                "arrow": "/images/cursor/DragonBall/6887/Arrow.ico",
-                "hand": "/images/cursor/DragonBall/6887/Hand.ico"
-            },
-            {
-                "id": "7097",
-                "cnname": "龟仙人",
-                "enname": "Master Roshi",
-                "logo": "/images/cursor/DragonBall/7097/cursors-logo.png",
-                "arrow": "/images/cursor/DragonBall/7097/Arrow.ico",
-                "hand": "/images/cursor/DragonBall/7097/Hand.ico"
-            },
-            {
-                "id": "7198",
-                "cnname": "超蓝悟空",
-                "enname": "Super Siyan Blue Goku",
-                "logo": "/images/cursor/DragonBall/7198/cursors-logo.png",
-                "arrow": "/images/cursor/DragonBall/7198/Arrow.ico",
-                "hand": "/images/cursor/DragonBall/7198/Hand.ico"
-            },
-            {
-                "id": "7208",
-                "cnname": "贝尔盖莫",
-                "enname": "Bergamo",
-                "logo": "/images/cursor/DragonBall/7208/cursors-logo.png",
-                "arrow": "/images/cursor/DragonBall/7208/Arrow.ico",
-                "hand": "/images/cursor/DragonBall/7208/Hand.ico"
-            },
-            {
-                "id": "7234",
-                "cnname": "超蓝贝吉塔",
-                "enname": "Super Siyan Blue Vegeta",
-                "logo": "/images/cursor/DragonBall/7234/cursors-logo.png",
-                "arrow": "/images/cursor/DragonBall/7234/Arrow.ico",
-                "hand": "/images/cursor/DragonBall/7234/Hand.ico"
-            },
-            {
-                "id": "7245",
-                "cnname": "黄金弗利萨",
-                "enname": "Golden Frieza",
-                "logo": "/images/cursor/DragonBall/7245/cursors-logo.png",
-                "arrow": "/images/cursor/DragonBall/7245/Arrow.ico",
-                "hand": "/images/cursor/DragonBall/7245/Hand.ico"
-            },
-            {
-                "id": "7398",
-                "cnname": "合体扎马斯",
-                "enname": "Fused Zamasu",
-                "logo": "/images/cursor/DragonBall/7398/cursors-logo.png",
-                "arrow": "/images/cursor/DragonBall/7398/Arrow.ico",
-                "hand": "/images/cursor/DragonBall/7398/Hand.ico"
-            },
-            {
-                "id": "7477",
-                "cnname": "橙色短笛",
-                "enname": "Orange Piccolo",
-                "logo": "/images/cursor/DragonBall/7477/cursors-logo.png",
-                "arrow": "/images/cursor/DragonBall/7477/Arrow.ico",
-                "hand": "/images/cursor/DragonBall/7477/Hand.ico"
-            },
-            {
-                "id": "7573",
-                "cnname": "布罗利",
-                "enname": "Broly",
-                "logo": "/images/cursor/DragonBall/7573/cursors-logo.png",
-                "arrow": "/images/cursor/DragonBall/7573/Arrow.ico",
-                "hand": "/images/cursor/DragonBall/7573/Hand.ico"
-            },
-            {
-                "id": "7813",
-                "cnname": "",
-                "enname": "Caser",
-                "logo": "/images/cursor/DragonBall/7813/cursors-logo.png",
-                "arrow": "/images/cursor/DragonBall/7813/Arrow.ico",
-                "hand": "/images/cursor/DragonBall/7813/Hand.ico"
-            },
-            {
-                "id": "8202",
-                "cnname": "伯达摩",
-                "enname": "Botamo",
-                "logo": "/images/cursor/DragonBall/8202/cursors-logo.png",
-                "arrow": "/images/cursor/DragonBall/8202/Arrow.ico",
-                "hand": "/images/cursor/DragonBall/8202/Hand.ico"
-            },
-            {
-                "id": "8430",
-                "cnname": "饺子",
-                "enname": "Chiaotzu",
-                "logo": "/images/cursor/DragonBall/8430/cursors-logo.png",
-                "arrow": "/images/cursor/DragonBall/8430/Arrow.ico",
-                "hand": "/images/cursor/DragonBall/8430/Hand.ico"
-            },
-            {
-                "id": "8601",
-                "cnname": "猫仙人",
-                "enname": "Karin",
-                "logo": "/images/cursor/DragonBall/8601/cursors-logo.png",
-                "arrow": "/images/cursor/DragonBall/8601/Arrow.ico",
-                "hand": "/images/cursor/DragonBall/8601/Hand.ico"
-            },
-            {
-                "id": "9203",
-                "cnname": "野兽悟饭",
-                "enname": "Beast Gohan",
-                "logo": "/images/cursor/DragonBall/9203/cursors-logo.png",
-                "arrow": "/images/cursor/DragonBall/9203/Arrow.ico",
-                "hand": "/images/cursor/DragonBall/9203/Hand.ico"
-            }
-        ]
-    },
-    {
-        "id": 2,
-        "cnname": "龙女仆",
-        "enname": "DragonMaid",
-        "items": [
-            {
-                "id": "1550",
-                "cnname": "托尔",
-                "enname": "Tohry",
-                "logo": "/images/cursor/DragonMaid/1550/cursors-logo.png",
-                "arrow": "/images/cursor/DragonMaid/1550/Arrow.ico",
-                "hand": "/images/cursor/DragonMaid/1550/Hand.ico"
-            },
-            {
-                "id": "2809",
-                "cnname": "康娜",
-                "enname": "kanna",
-                "logo": "/images/cursor/DragonMaid/2809/cursors-logo.png",
-                "arrow": "/images/cursor/DragonMaid/2809/Arrow.ico",
-                "hand": "/images/cursor/DragonMaid/2809/Hand.ico"
-            },
-            {
-                "id": "4451",
-                "cnname": "小林",
-                "enname": "Kobayashi",
-                "logo": "/images/cursor/DragonMaid/4451/cursors-logo.png",
-                "arrow": "/images/cursor/DragonMaid/4451/Arrow.ico",
-                "hand": "/images/cursor/DragonMaid/4451/Hand.ico"
-            },
-            {
-                "id": "7561",
-                "cnname": "真土翔太",
-                "enname": "Shouta Magatsuchi",
-                "logo": "/images/cursor/DragonMaid/7561/cursors-logo.png",
-                "arrow": "/images/cursor/DragonMaid/7561/Arrow.ico",
-                "hand": "/images/cursor/DragonMaid/7561/Hand.ico"
-            },
-            {
-                "id": "7615",
-                "cnname": "才川莉子",
-                "enname": "Riko Saikawa",
-                "logo": "/images/cursor/DragonMaid/7615/cursors-logo.png",
-                "arrow": "/images/cursor/DragonMaid/7615/Arrow.ico",
-                "hand": "/images/cursor/DragonMaid/7615/Hand.ico"
-            },
-            {
-                "id": "7737",
-                "cnname": "法夫纳",
-                "enname": "Fafnir",
-                "logo": "/images/cursor/DragonMaid/7737/cursors-logo.png",
-                "arrow": "/images/cursor/DragonMaid/7737/Arrow.ico",
-                "hand": "/images/cursor/DragonMaid/7737/Hand.ico"
-            },
-            {
-                "id": "7879",
-                "cnname": "艾露玛",
-                "enname": "Elma",
-                "logo": "/images/cursor/DragonMaid/7879/cursors-logo.png",
-                "arrow": "/images/cursor/DragonMaid/7879/Arrow.ico",
-                "hand": "/images/cursor/DragonMaid/7879/Hand.ico"
-            },
-            {
-                "id": "8174",
-                "cnname": "露科亚",
-                "enname": "Quetzalcoatl",
-                "logo": "/images/cursor/DragonMaid/8174/cursors-logo.png",
-                "arrow": "/images/cursor/DragonMaid/8174/Arrow.ico",
-                "hand": "/images/cursor/DragonMaid/8174/Hand.ico"
-            }
-        ]
-    },
-    {
-        "id": 3,
-        "cnname": "海贼王",
-        "enname": "OnePiece",
-        "items": [
-            {
-                "id": "3545",
-                "cnname": "罗罗诺亚·索隆",
-                "enname": "Roronoa Zoro",
-                "logo": "/images/cursor/OnePiece/3545/cursors-logo.png",
-                "arrow": "/images/cursor/OnePiece/3545/Arrow.ico",
-                "hand": "/images/cursor/OnePiece/3545/Hand.ico"
-            },
-            {
-                "id": "3574",
-                "cnname": "娜美",
-                "enname": "Nami",
-                "logo": "/images/cursor/OnePiece/3574/cursors-logo.png",
-                "arrow": "/images/cursor/OnePiece/3574/Arrow.ico",
-                "hand": "/images/cursor/OnePiece/3574/Hand.ico"
-            },
-            {
-                "id": "3577",
-                "cnname": "乌索普",
-                "enname": "Usopp",
-                "logo": "/images/cursor/OnePiece/3577/cursors-logo.png",
-                "arrow": "/images/cursor/OnePiece/3577/Arrow.ico",
-                "hand": "/images/cursor/OnePiece/3577/Hand.ico"
-            },
-            {
-                "id": "3588",
-                "cnname": "托尼托尼·乔巴",
-                "enname": "Tony Tony Chopper",
-                "logo": "/images/cursor/OnePiece/3588/cursors-logo.png",
-                "arrow": "/images/cursor/OnePiece/3588/Arrow.ico",
-                "hand": "/images/cursor/OnePiece/3588/Hand.ico"
-            },
-            {
-                "id": "3593",
-                "cnname": "布鲁克",
-                "enname": "Brook",
-                "logo": "/images/cursor/OnePiece/3593/cursors-logo.png",
-                "arrow": "/images/cursor/OnePiece/3593/Arrow.ico",
-                "hand": "/images/cursor/OnePiece/3593/Hand.ico"
-            },
-            {
-                "id": "3748",
-                "cnname": "波雅·汉库克",
-                "enname": "Boa·Hancock",
-                "logo": "/images/cursor/OnePiece/3748/cursors-logo.png",
-                "arrow": "/images/cursor/OnePiece/3748/Arrow.ico",
-                "hand": "/images/cursor/OnePiece/3748/Hand.ico"
-            },
-            {
-                "id": "3764",
-                "cnname": "特拉法尔加·罗",
-                "enname": "Trafalgar D. Water Law",
-                "logo": "/images/cursor/OnePiece/3764/cursors-logo.png",
-                "arrow": "/images/cursor/OnePiece/3764/Arrow.ico",
-                "hand": "/images/cursor/OnePiece/3764/Hand.ico"
-            },
-            {
-                "id": "3789",
-                "cnname": "香克斯",
-                "enname": "Shanks",
-                "logo": "/images/cursor/OnePiece/3789/cursors-logo.png",
-                "arrow": "/images/cursor/OnePiece/3789/Arrow.ico",
-                "hand": "/images/cursor/OnePiece/3789/Hand.ico"
-            },
-            {
-                "id": "3809",
-                "cnname": "波特卡斯·D·艾斯",
-                "enname": "Portgas·D·Ace",
-                "logo": "/images/cursor/OnePiece/3809/cursors-logo.png",
-                "arrow": "/images/cursor/OnePiece/3809/Arrow.ico",
-                "hand": "/images/cursor/OnePiece/3809/Hand.ico"
-            },
-            {
-                "id": "3823",
-                "cnname": "萨博",
-                "enname": "Sabo",
-                "logo": "/images/cursor/OnePiece/3823/cursors-logo.png",
-                "arrow": "/images/cursor/OnePiece/3823/Arrow.ico",
-                "hand": "/images/cursor/OnePiece/3823/Hand.ico"
-            },
-            {
-                "id": "3938",
-                "cnname": "妮可·罗宾",
-                "enname": "Nico·Robin",
-                "logo": "/images/cursor/OnePiece/3938/cursors-logo.png",
-                "arrow": "/images/cursor/OnePiece/3938/Arrow.ico",
-                "hand": "/images/cursor/OnePiece/3938/Hand.ico"
-            },
-            {
-                "id": "4232",
-                "cnname": "山治",
-                "enname": "Sanji",
-                "logo": "/images/cursor/OnePiece/4232/cursors-logo.png",
-                "arrow": "/images/cursor/OnePiece/4232/Arrow.ico",
-                "hand": "/images/cursor/OnePiece/4232/Hand.ico"
-            },
-            {
-                "id": "4741",
-                "cnname": "凯多",
-                "enname": "Kaidou",
-                "logo": "/images/cursor/OnePiece/4741/cursors-logo.png",
-                "arrow": "/images/cursor/OnePiece/4741/Arrow.ico",
-                "hand": "/images/cursor/OnePiece/4741/Hand.ico"
-            },
-            {
-                "id": "4763",
-                "cnname": "弗兰奇",
-                "enname": "Franky",
-                "logo": "/images/cursor/OnePiece/4763/cursors-logo.png",
-                "arrow": "/images/cursor/OnePiece/4763/Arrow.ico",
-                "hand": "/images/cursor/OnePiece/4763/Hand.ico"
-            },
-            {
-                "id": "5138",
-                "cnname": "哥尔·D·罗杰",
-                "enname": "Gol·D·Roger",
-                "logo": "/images/cursor/OnePiece/5138/cursors-logo.png",
-                "arrow": "/images/cursor/OnePiece/5138/Arrow.ico",
-                "hand": "/images/cursor/OnePiece/5138/Hand.ico"
-            },
-            {
-                "id": "5191",
-                "cnname": "大和",
-                "enname": "Yamato",
-                "logo": "/images/cursor/OnePiece/5191/cursors-logo.png",
-                "arrow": "/images/cursor/OnePiece/5191/Arrow.ico",
-                "hand": "/images/cursor/OnePiece/5191/Hand.ico"
-            },
-            {
-                "id": "5247",
-                "cnname": "唐吉诃德·多弗朗明哥",
-                "enname": "Donquixote Doflamingo",
-                "logo": "/images/cursor/OnePiece/5247/cursors-logo.png",
-                "arrow": "/images/cursor/OnePiece/5247/Arrow.ico",
-                "hand": "/images/cursor/OnePiece/5247/Hand.ico"
-            },
-            {
-                "id": "5268",
-                "cnname": "光月御田",
-                "enname": "Kozuki Oden",
-                "logo": "/images/cursor/OnePiece/5268/cursors-logo.png",
-                "arrow": "/images/cursor/OnePiece/5268/Arrow.ico",
-                "hand": "/images/cursor/OnePiece/5268/Hand.ico"
-            },
-            {
-                "id": "5378",
-                "cnname": "烬",
-                "enname": "King",
-                "logo": "/images/cursor/OnePiece/5378/cursors-logo.png",
-                "arrow": "/images/cursor/OnePiece/5378/Arrow.ico",
-                "hand": "/images/cursor/OnePiece/5378/Hand.ico"
-            },
-            {
-                "id": "5463",
-                "cnname": "甚平",
-                "enname": "Jinbe",
-                "logo": "/images/cursor/OnePiece/5463/cursors-logo.png",
-                "arrow": "/images/cursor/OnePiece/5463/Arrow.ico",
-                "hand": "/images/cursor/OnePiece/5463/Hand.ico"
-            },
-            {
-                "id": "5694",
-                "cnname": "尤斯塔斯·基德",
-                "enname": "Eustass Kid",
-                "logo": "/images/cursor/OnePiece/5694/cursors-logo.png",
-                "arrow": "/images/cursor/OnePiece/5694/Arrow.ico",
-                "hand": "/images/cursor/OnePiece/5694/Hand.ico"
-            },
-            {
-                "id": "5855",
-                "cnname": "夏洛特·卡塔库栗",
-                "enname": "Charlotte Katakuri",
-                "logo": "/images/cursor/OnePiece/5855/cursors-logo.png",
-                "arrow": "/images/cursor/OnePiece/5855/Arrow.ico",
-                "hand": "/images/cursor/OnePiece/5855/Hand.ico"
-            },
-            {
-                "id": "6065",
-                "cnname": "卡文迪许",
-                "enname": "Cavendish",
-                "logo": "/images/cursor/OnePiece/6065/cursors-logo.png",
-                "arrow": "/images/cursor/OnePiece/6065/Arrow.ico",
-                "hand": "/images/cursor/OnePiece/6065/Hand.ico"
-            },
-            {
-                "id": "6337",
-                "cnname": "乔拉可尔·米霍克",
-                "enname": "Dracule Mihawk",
-                "logo": "/images/cursor/OnePiece/6337/cursors-logo.png",
-                "arrow": "/images/cursor/OnePiece/6337/Arrow.ico",
-                "hand": "/images/cursor/OnePiece/6337/Hand.ico"
-            },
-            {
-                "id": "6517",
-                "cnname": "文斯莫克·尼治",
-                "enname": "Vinsmoke.Niji",
-                "logo": "/images/cursor/OnePiece/6517/cursors-logo.png",
-                "arrow": "/images/cursor/OnePiece/6517/Arrow.ico",
-                "hand": "/images/cursor/OnePiece/6517/Hand.ico"
-            },
-            {
-                "id": "6936",
-                "cnname": "乌塔",
-                "enname": "Uta",
-                "logo": "/images/cursor/OnePiece/6936/cursors-logo.png",
-                "arrow": "/images/cursor/OnePiece/6936/Arrow.ico",
-                "hand": "/images/cursor/OnePiece/6936/Hand.ico"
-            },
-            {
-                "id": "7132",
-                "cnname": "巴基",
-                "enname": "Buggy",
-                "logo": "/images/cursor/OnePiece/7132/cursors-logo.png",
-                "arrow": "/images/cursor/OnePiece/7132/Arrow.ico",
-                "hand": "/images/cursor/OnePiece/7132/Hand.ico"
-            },
-            {
-                "id": "7210",
-                "cnname": "贝宝",
-                "enname": "Bepo",
-                "logo": "/images/cursor/OnePiece/7210/cursors-logo.png",
-                "arrow": "/images/cursor/OnePiece/7210/Arrow.ico",
-                "hand": "/images/cursor/OnePiece/7210/Hand.ico"
-            },
-            {
-                "id": "7249",
-                "cnname": "佩罗娜",
-                "enname": "Perona",
-                "logo": "/images/cursor/OnePiece/7249/cursors-logo.png",
-                "arrow": "/images/cursor/OnePiece/7249/Arrow.ico",
-                "hand": "/images/cursor/OnePiece/7249/Hand.ico"
-            },
-            {
-                "id": "7520",
-                "cnname": "爱德华·纽盖特",
-                "enname": "Edward Newgate",
-                "logo": "/images/cursor/OnePiece/7520/cursors-logo.png",
-                "arrow": "/images/cursor/OnePiece/7520/Arrow.ico",
-                "hand": "/images/cursor/OnePiece/7520/Hand.ico"
-            },
-            {
-                "id": "764",
-                "cnname": "蒙奇·D·路飞",
-                "enname": "Monkey D. Luffy",
-                "logo": "/images/cursor/OnePiece/764/cursors-logo.png",
-                "arrow": "/images/cursor/OnePiece/764/Arrow.ico",
-                "hand": "/images/cursor/OnePiece/764/Hand.ico"
-            },
-            {
-                "id": "7841",
-                "cnname": "山姆",
-                "enname": "Sham",
-                "logo": "/images/cursor/OnePiece/7841/cursors-logo.png",
-                "arrow": "/images/cursor/OnePiece/7841/Arrow.ico",
-                "hand": "/images/cursor/OnePiece/7841/Hand.ico"
-            },
-            {
-                "id": "7992",
-                "cnname": "妮可·欧尔比雅",
-                "enname": "Nico Olvia",
-                "logo": "/images/cursor/OnePiece/7992/cursors-logo.png",
-                "arrow": "/images/cursor/OnePiece/7992/Arrow.ico",
-                "hand": "/images/cursor/OnePiece/7992/Hand.ico"
-            },
-            {
-                "id": "8448",
-                "cnname": "布治",
-                "enname": "Buchi",
-                "logo": "/images/cursor/OnePiece/8448/cursors-logo.png",
-                "arrow": "/images/cursor/OnePiece/8448/Arrow.ico",
-                "hand": "/images/cursor/OnePiece/8448/Hand.ico"
-            },
-            {
-                "id": "8972",
-                "cnname": "蒙奇·D·卡普",
-                "enname": "Monkey D Garp",
-                "logo": "/images/cursor/OnePiece/8972/cursors-logo.png",
-                "arrow": "/images/cursor/OnePiece/8972/Arrow.ico",
-                "hand": "/images/cursor/OnePiece/8972/Hand.ico"
-            }
-        ]
-    },
-    {
-        "id": 4,
-        "cnname": "一拳超人",
-        "enname": "OnePunchMan",
-        "items": [
-            {
-                "id": "1344",
-                "cnname": "埼玉",
-                "enname": "Saitama",
-                "logo": "/images/cursor/OnePunchMan/1344/cursors-logo.png",
-                "arrow": "/images/cursor/OnePunchMan/1344/Arrow.ico",
-                "hand": "/images/cursor/OnePunchMan/1344/Hand.ico"
-            }
-        ]
-    }
+	{
+		"id": 1,
+		"cnname": "龙珠",
+		"enname": "DragonBall",
+		"items": [
+			{
+				"id": "1608",
+				"cnname": "比鲁斯",
+				"enname": "Beerus",
+				"logo": "/images/cursor/DragonBall/1608/cursors-logo.png",
+				"arrow": "/images/cursor/DragonBall/1608/Arrow.ico",
+				"hand": "/images/cursor/DragonBall/1608/Hand.ico"
+			},
+			{
+				"id": "1650",
+				"cnname": "那巴",
+				"enname": "Nappa",
+				"logo": "/images/cursor/DragonBall/1650/cursors-logo.png",
+				"arrow": "/images/cursor/DragonBall/1650/Arrow.ico",
+				"hand": "/images/cursor/DragonBall/1650/Hand.ico"
+			},
+			{
+				"id": "1793",
+				"cnname": "弗利萨",
+				"enname": "Frieza",
+				"logo": "/images/cursor/DragonBall/1793/cursors-logo.png",
+				"arrow": "/images/cursor/DragonBall/1793/Arrow.ico",
+				"hand": "/images/cursor/DragonBall/1793/Hand.ico"
+			},
+			{
+				"id": "1861",
+				"cnname": "吉连",
+				"enname": "Jiren",
+				"logo": "/images/cursor/DragonBall/1861/cursors-logo.png",
+				"arrow": "/images/cursor/DragonBall/1861/Arrow.ico",
+				"hand": "/images/cursor/DragonBall/1861/Hand.ico"
+			},
+			{
+				"id": "1867",
+				"cnname": "短笛",
+				"enname": "Piccolo",
+				"logo": "/images/cursor/DragonBall/1867/cursors-logo.png",
+				"arrow": "/images/cursor/DragonBall/1867/Arrow.ico",
+				"hand": "/images/cursor/DragonBall/1867/Hand.ico"
+			},
+			{
+				"id": "3252",
+				"cnname": "特兰克斯",
+				"enname": "Trunks",
+				"logo": "/images/cursor/DragonBall/3252/cursors-logo.png",
+				"arrow": "/images/cursor/DragonBall/3252/Arrow.ico",
+				"hand": "/images/cursor/DragonBall/3252/Hand.ico"
+			},
+			{
+				"id": "3866",
+				"cnname": "全王",
+				"enname": "Zeno",
+				"logo": "/images/cursor/DragonBall/3866/cursors-logo.png",
+				"arrow": "/images/cursor/DragonBall/3866/Arrow.ico",
+				"hand": "/images/cursor/DragonBall/3866/Hand.ico"
+			},
+			{
+				"id": "4042",
+				"cnname": "沙鲁",
+				"enname": "Cell",
+				"logo": "/images/cursor/DragonBall/4042/cursors-logo.png",
+				"arrow": "/images/cursor/DragonBall/4042/Arrow.ico",
+				"hand": "/images/cursor/DragonBall/4042/Hand.ico"
+			},
+			{
+				"id": "4103",
+				"cnname": "格兰诺拉",
+				"enname": "Granolah",
+				"logo": "/images/cursor/DragonBall/4103/cursors-logo.png",
+				"arrow": "/images/cursor/DragonBall/4103/Arrow.ico",
+				"hand": "/images/cursor/DragonBall/4103/Hand.ico"
+			},
+			{
+				"id": "435",
+				"cnname": "孙悟空",
+				"enname": "Goku",
+				"logo": "/images/cursor/DragonBall/435/cursors-logo.png",
+				"arrow": "/images/cursor/DragonBall/435/Arrow.ico",
+				"hand": "/images/cursor/DragonBall/435/Hand.ico"
+			},
+			{
+				"id": "4356",
+				"cnname": "贝吉塔",
+				"enname": "Vegeta",
+				"logo": "/images/cursor/DragonBall/4356/cursors-logo.png",
+				"arrow": "/images/cursor/DragonBall/4356/Arrow.ico",
+				"hand": "/images/cursor/DragonBall/4356/Hand.ico"
+			},
+			{
+				"id": "4398",
+				"cnname": "小悟空",
+				"enname": "Kid Goku",
+				"logo": "/images/cursor/DragonBall/4398/cursors-logo.png",
+				"arrow": "/images/cursor/DragonBall/4398/Arrow.ico",
+				"hand": "/images/cursor/DragonBall/4398/Hand.ico"
+			},
+			{
+				"id": "4720",
+				"cnname": "克林",
+				"enname": "Krillin",
+				"logo": "/images/cursor/DragonBall/4720/cursors-logo.png",
+				"arrow": "/images/cursor/DragonBall/4720/Arrow.ico",
+				"hand": "/images/cursor/DragonBall/4720/Hand.ico"
+			},
+			{
+				"id": "4974",
+				"cnname": "坏悟空",
+				"enname": "Bad Goku",
+				"logo": "/images/cursor/DragonBall/4974/cursors-logo.png",
+				"arrow": "/images/cursor/DragonBall/4974/Arrow.ico",
+				"hand": "/images/cursor/DragonBall/4974/Hand.ico"
+			},
+			{
+				"id": "5836",
+				"cnname": "佳斯",
+				"enname": "Gas",
+				"logo": "/images/cursor/DragonBall/5836/cursors-logo.png",
+				"arrow": "/images/cursor/DragonBall/5836/Arrow.ico",
+				"hand": "/images/cursor/DragonBall/5836/Hand.ico"
+			},
+			{
+				"id": "6367",
+				"cnname": "维斯",
+				"enname": "Whis",
+				"logo": "/images/cursor/DragonBall/6367/cursors-logo.png",
+				"arrow": "/images/cursor/DragonBall/6367/Arrow.ico",
+				"hand": "/images/cursor/DragonBall/6367/Hand.ico"
+			},
+			{
+				"id": "6547",
+				"cnname": "阿纳特",
+				"enname": "Anato",
+				"logo": "/images/cursor/DragonBall/6547/cursors-logo.png",
+				"arrow": "/images/cursor/DragonBall/6547/Arrow.ico",
+				"hand": "/images/cursor/DragonBall/6547/Hand.ico"
+			},
+			{
+				"id": "6722",
+				"cnname": "海德博士",
+				"enname": "Dr. Hedo",
+				"logo": "/images/cursor/DragonBall/6722/cursors-logo.png",
+				"arrow": "/images/cursor/DragonBall/6722/Arrow.ico",
+				"hand": "/images/cursor/DragonBall/6722/Hand.ico"
+			},
+			{
+				"id": "6769",
+				"cnname": "茨莱",
+				"enname": "Cheelai",
+				"logo": "/images/cursor/DragonBall/6769/cursors-logo.png",
+				"arrow": "/images/cursor/DragonBall/6769/Arrow.ico",
+				"hand": "/images/cursor/DragonBall/6769/Hand.ico"
+			},
+			{
+				"id": "6887",
+				"cnname": "布尔玛",
+				"enname": "Bulma",
+				"logo": "/images/cursor/DragonBall/6887/cursors-logo.png",
+				"arrow": "/images/cursor/DragonBall/6887/Arrow.ico",
+				"hand": "/images/cursor/DragonBall/6887/Hand.ico"
+			},
+			{
+				"id": "7097",
+				"cnname": "龟仙人",
+				"enname": "Master Roshi",
+				"logo": "/images/cursor/DragonBall/7097/cursors-logo.png",
+				"arrow": "/images/cursor/DragonBall/7097/Arrow.ico",
+				"hand": "/images/cursor/DragonBall/7097/Hand.ico"
+			},
+			{
+				"id": "7198",
+				"cnname": "超蓝悟空",
+				"enname": "Super Siyan Blue Goku",
+				"logo": "/images/cursor/DragonBall/7198/cursors-logo.png",
+				"arrow": "/images/cursor/DragonBall/7198/Arrow.ico",
+				"hand": "/images/cursor/DragonBall/7198/Hand.ico"
+			},
+			{
+				"id": "7208",
+				"cnname": "贝尔盖莫",
+				"enname": "Bergamo",
+				"logo": "/images/cursor/DragonBall/7208/cursors-logo.png",
+				"arrow": "/images/cursor/DragonBall/7208/Arrow.ico",
+				"hand": "/images/cursor/DragonBall/7208/Hand.ico"
+			},
+			{
+				"id": "7234",
+				"cnname": "超蓝贝吉塔",
+				"enname": "Super Siyan Blue Vegeta",
+				"logo": "/images/cursor/DragonBall/7234/cursors-logo.png",
+				"arrow": "/images/cursor/DragonBall/7234/Arrow.ico",
+				"hand": "/images/cursor/DragonBall/7234/Hand.ico"
+			},
+			{
+				"id": "7245",
+				"cnname": "黄金弗利萨",
+				"enname": "Golden Frieza",
+				"logo": "/images/cursor/DragonBall/7245/cursors-logo.png",
+				"arrow": "/images/cursor/DragonBall/7245/Arrow.ico",
+				"hand": "/images/cursor/DragonBall/7245/Hand.ico"
+			},
+			{
+				"id": "7398",
+				"cnname": "合体扎马斯",
+				"enname": "Fused Zamasu",
+				"logo": "/images/cursor/DragonBall/7398/cursors-logo.png",
+				"arrow": "/images/cursor/DragonBall/7398/Arrow.ico",
+				"hand": "/images/cursor/DragonBall/7398/Hand.ico"
+			},
+			{
+				"id": "7477",
+				"cnname": "橙色短笛",
+				"enname": "Orange Piccolo",
+				"logo": "/images/cursor/DragonBall/7477/cursors-logo.png",
+				"arrow": "/images/cursor/DragonBall/7477/Arrow.ico",
+				"hand": "/images/cursor/DragonBall/7477/Hand.ico"
+			},
+			{
+				"id": "7573",
+				"cnname": "布罗利",
+				"enname": "Broly",
+				"logo": "/images/cursor/DragonBall/7573/cursors-logo.png",
+				"arrow": "/images/cursor/DragonBall/7573/Arrow.ico",
+				"hand": "/images/cursor/DragonBall/7573/Hand.ico"
+			},
+			{
+				"id": "7813",
+				"cnname": "",
+				"enname": "Caser",
+				"logo": "/images/cursor/DragonBall/7813/cursors-logo.png",
+				"arrow": "/images/cursor/DragonBall/7813/Arrow.ico",
+				"hand": "/images/cursor/DragonBall/7813/Hand.ico"
+			},
+			{
+				"id": "8202",
+				"cnname": "伯达摩",
+				"enname": "Botamo",
+				"logo": "/images/cursor/DragonBall/8202/cursors-logo.png",
+				"arrow": "/images/cursor/DragonBall/8202/Arrow.ico",
+				"hand": "/images/cursor/DragonBall/8202/Hand.ico"
+			},
+			{
+				"id": "8430",
+				"cnname": "饺子",
+				"enname": "Chiaotzu",
+				"logo": "/images/cursor/DragonBall/8430/cursors-logo.png",
+				"arrow": "/images/cursor/DragonBall/8430/Arrow.ico",
+				"hand": "/images/cursor/DragonBall/8430/Hand.ico"
+			},
+			{
+				"id": "8601",
+				"cnname": "猫仙人",
+				"enname": "Karin",
+				"logo": "/images/cursor/DragonBall/8601/cursors-logo.png",
+				"arrow": "/images/cursor/DragonBall/8601/Arrow.ico",
+				"hand": "/images/cursor/DragonBall/8601/Hand.ico"
+			},
+			{
+				"id": "9203",
+				"cnname": "野兽悟饭",
+				"enname": "Beast Gohan",
+				"logo": "/images/cursor/DragonBall/9203/cursors-logo.png",
+				"arrow": "/images/cursor/DragonBall/9203/Arrow.ico",
+				"hand": "/images/cursor/DragonBall/9203/Hand.ico"
+			}
+		]
+	},
+	{
+		"id": 2,
+		"cnname": "龙女仆",
+		"enname": "DragonMaid",
+		"items": [
+			{
+				"id": "1550",
+				"cnname": "托尔",
+				"enname": "Tohry",
+				"logo": "/images/cursor/DragonMaid/1550/cursors-logo.png",
+				"arrow": "/images/cursor/DragonMaid/1550/Arrow.ico",
+				"hand": "/images/cursor/DragonMaid/1550/Hand.ico"
+			},
+			{
+				"id": "2809",
+				"cnname": "康娜",
+				"enname": "kanna",
+				"logo": "/images/cursor/DragonMaid/2809/cursors-logo.png",
+				"arrow": "/images/cursor/DragonMaid/2809/Arrow.ico",
+				"hand": "/images/cursor/DragonMaid/2809/Hand.ico"
+			},
+			{
+				"id": "4451",
+				"cnname": "小林",
+				"enname": "Kobayashi",
+				"logo": "/images/cursor/DragonMaid/4451/cursors-logo.png",
+				"arrow": "/images/cursor/DragonMaid/4451/Arrow.ico",
+				"hand": "/images/cursor/DragonMaid/4451/Hand.ico"
+			},
+			{
+				"id": "7561",
+				"cnname": "真土翔太",
+				"enname": "Shouta Magatsuchi",
+				"logo": "/images/cursor/DragonMaid/7561/cursors-logo.png",
+				"arrow": "/images/cursor/DragonMaid/7561/Arrow.ico",
+				"hand": "/images/cursor/DragonMaid/7561/Hand.ico"
+			},
+			{
+				"id": "7615",
+				"cnname": "才川莉子",
+				"enname": "Riko Saikawa",
+				"logo": "/images/cursor/DragonMaid/7615/cursors-logo.png",
+				"arrow": "/images/cursor/DragonMaid/7615/Arrow.ico",
+				"hand": "/images/cursor/DragonMaid/7615/Hand.ico"
+			},
+			{
+				"id": "7737",
+				"cnname": "法夫纳",
+				"enname": "Fafnir",
+				"logo": "/images/cursor/DragonMaid/7737/cursors-logo.png",
+				"arrow": "/images/cursor/DragonMaid/7737/Arrow.ico",
+				"hand": "/images/cursor/DragonMaid/7737/Hand.ico"
+			},
+			{
+				"id": "7879",
+				"cnname": "艾露玛",
+				"enname": "Elma",
+				"logo": "/images/cursor/DragonMaid/7879/cursors-logo.png",
+				"arrow": "/images/cursor/DragonMaid/7879/Arrow.ico",
+				"hand": "/images/cursor/DragonMaid/7879/Hand.ico"
+			},
+			{
+				"id": "8174",
+				"cnname": "露科亚",
+				"enname": "Quetzalcoatl",
+				"logo": "/images/cursor/DragonMaid/8174/cursors-logo.png",
+				"arrow": "/images/cursor/DragonMaid/8174/Arrow.ico",
+				"hand": "/images/cursor/DragonMaid/8174/Hand.ico"
+			}
+		]
+	},
+	{
+		"id": 3,
+		"cnname": "海贼王",
+		"enname": "OnePiece",
+		"items": [
+			{
+				"id": "3545",
+				"cnname": "罗罗诺亚·索隆",
+				"enname": "Roronoa Zoro",
+				"logo": "/images/cursor/OnePiece/3545/cursors-logo.png",
+				"arrow": "/images/cursor/OnePiece/3545/Arrow.ico",
+				"hand": "/images/cursor/OnePiece/3545/Hand.ico"
+			},
+			{
+				"id": "3574",
+				"cnname": "娜美",
+				"enname": "Nami",
+				"logo": "/images/cursor/OnePiece/3574/cursors-logo.png",
+				"arrow": "/images/cursor/OnePiece/3574/Arrow.ico",
+				"hand": "/images/cursor/OnePiece/3574/Hand.ico"
+			},
+			{
+				"id": "3577",
+				"cnname": "乌索普",
+				"enname": "Usopp",
+				"logo": "/images/cursor/OnePiece/3577/cursors-logo.png",
+				"arrow": "/images/cursor/OnePiece/3577/Arrow.ico",
+				"hand": "/images/cursor/OnePiece/3577/Hand.ico"
+			},
+			{
+				"id": "3588",
+				"cnname": "托尼托尼·乔巴",
+				"enname": "Tony Tony Chopper",
+				"logo": "/images/cursor/OnePiece/3588/cursors-logo.png",
+				"arrow": "/images/cursor/OnePiece/3588/Arrow.ico",
+				"hand": "/images/cursor/OnePiece/3588/Hand.ico"
+			},
+			{
+				"id": "3593",
+				"cnname": "布鲁克",
+				"enname": "Brook",
+				"logo": "/images/cursor/OnePiece/3593/cursors-logo.png",
+				"arrow": "/images/cursor/OnePiece/3593/Arrow.ico",
+				"hand": "/images/cursor/OnePiece/3593/Hand.ico"
+			},
+			{
+				"id": "3748",
+				"cnname": "波雅·汉库克",
+				"enname": "Boa·Hancock",
+				"logo": "/images/cursor/OnePiece/3748/cursors-logo.png",
+				"arrow": "/images/cursor/OnePiece/3748/Arrow.ico",
+				"hand": "/images/cursor/OnePiece/3748/Hand.ico"
+			},
+			{
+				"id": "3764",
+				"cnname": "特拉法尔加·罗",
+				"enname": "Trafalgar D. Water Law",
+				"logo": "/images/cursor/OnePiece/3764/cursors-logo.png",
+				"arrow": "/images/cursor/OnePiece/3764/Arrow.ico",
+				"hand": "/images/cursor/OnePiece/3764/Hand.ico"
+			},
+			{
+				"id": "3789",
+				"cnname": "香克斯",
+				"enname": "Shanks",
+				"logo": "/images/cursor/OnePiece/3789/cursors-logo.png",
+				"arrow": "/images/cursor/OnePiece/3789/Arrow.ico",
+				"hand": "/images/cursor/OnePiece/3789/Hand.ico"
+			},
+			{
+				"id": "3809",
+				"cnname": "波特卡斯·D·艾斯",
+				"enname": "Portgas·D·Ace",
+				"logo": "/images/cursor/OnePiece/3809/cursors-logo.png",
+				"arrow": "/images/cursor/OnePiece/3809/Arrow.ico",
+				"hand": "/images/cursor/OnePiece/3809/Hand.ico"
+			},
+			{
+				"id": "3823",
+				"cnname": "萨博",
+				"enname": "Sabo",
+				"logo": "/images/cursor/OnePiece/3823/cursors-logo.png",
+				"arrow": "/images/cursor/OnePiece/3823/Arrow.ico",
+				"hand": "/images/cursor/OnePiece/3823/Hand.ico"
+			},
+			{
+				"id": "3938",
+				"cnname": "妮可·罗宾",
+				"enname": "Nico·Robin",
+				"logo": "/images/cursor/OnePiece/3938/cursors-logo.png",
+				"arrow": "/images/cursor/OnePiece/3938/Arrow.ico",
+				"hand": "/images/cursor/OnePiece/3938/Hand.ico"
+			},
+			{
+				"id": "4232",
+				"cnname": "山治",
+				"enname": "Sanji",
+				"logo": "/images/cursor/OnePiece/4232/cursors-logo.png",
+				"arrow": "/images/cursor/OnePiece/4232/Arrow.ico",
+				"hand": "/images/cursor/OnePiece/4232/Hand.ico"
+			},
+			{
+				"id": "4741",
+				"cnname": "凯多",
+				"enname": "Kaidou",
+				"logo": "/images/cursor/OnePiece/4741/cursors-logo.png",
+				"arrow": "/images/cursor/OnePiece/4741/Arrow.ico",
+				"hand": "/images/cursor/OnePiece/4741/Hand.ico"
+			},
+			{
+				"id": "4763",
+				"cnname": "弗兰奇",
+				"enname": "Franky",
+				"logo": "/images/cursor/OnePiece/4763/cursors-logo.png",
+				"arrow": "/images/cursor/OnePiece/4763/Arrow.ico",
+				"hand": "/images/cursor/OnePiece/4763/Hand.ico"
+			},
+			{
+				"id": "5138",
+				"cnname": "哥尔·D·罗杰",
+				"enname": "Gol·D·Roger",
+				"logo": "/images/cursor/OnePiece/5138/cursors-logo.png",
+				"arrow": "/images/cursor/OnePiece/5138/Arrow.ico",
+				"hand": "/images/cursor/OnePiece/5138/Hand.ico"
+			},
+			{
+				"id": "5191",
+				"cnname": "大和",
+				"enname": "Yamato",
+				"logo": "/images/cursor/OnePiece/5191/cursors-logo.png",
+				"arrow": "/images/cursor/OnePiece/5191/Arrow.ico",
+				"hand": "/images/cursor/OnePiece/5191/Hand.ico"
+			},
+			{
+				"id": "5247",
+				"cnname": "唐吉诃德·多弗朗明哥",
+				"enname": "Donquixote Doflamingo",
+				"logo": "/images/cursor/OnePiece/5247/cursors-logo.png",
+				"arrow": "/images/cursor/OnePiece/5247/Arrow.ico",
+				"hand": "/images/cursor/OnePiece/5247/Hand.ico"
+			},
+			{
+				"id": "5268",
+				"cnname": "光月御田",
+				"enname": "Kozuki Oden",
+				"logo": "/images/cursor/OnePiece/5268/cursors-logo.png",
+				"arrow": "/images/cursor/OnePiece/5268/Arrow.ico",
+				"hand": "/images/cursor/OnePiece/5268/Hand.ico"
+			},
+			{
+				"id": "5378",
+				"cnname": "烬",
+				"enname": "King",
+				"logo": "/images/cursor/OnePiece/5378/cursors-logo.png",
+				"arrow": "/images/cursor/OnePiece/5378/Arrow.ico",
+				"hand": "/images/cursor/OnePiece/5378/Hand.ico"
+			},
+			{
+				"id": "5463",
+				"cnname": "甚平",
+				"enname": "Jinbe",
+				"logo": "/images/cursor/OnePiece/5463/cursors-logo.png",
+				"arrow": "/images/cursor/OnePiece/5463/Arrow.ico",
+				"hand": "/images/cursor/OnePiece/5463/Hand.ico"
+			},
+			{
+				"id": "5694",
+				"cnname": "尤斯塔斯·基德",
+				"enname": "Eustass Kid",
+				"logo": "/images/cursor/OnePiece/5694/cursors-logo.png",
+				"arrow": "/images/cursor/OnePiece/5694/Arrow.ico",
+				"hand": "/images/cursor/OnePiece/5694/Hand.ico"
+			},
+			{
+				"id": "5855",
+				"cnname": "夏洛特·卡塔库栗",
+				"enname": "Charlotte Katakuri",
+				"logo": "/images/cursor/OnePiece/5855/cursors-logo.png",
+				"arrow": "/images/cursor/OnePiece/5855/Arrow.ico",
+				"hand": "/images/cursor/OnePiece/5855/Hand.ico"
+			},
+			{
+				"id": "6065",
+				"cnname": "卡文迪许",
+				"enname": "Cavendish",
+				"logo": "/images/cursor/OnePiece/6065/cursors-logo.png",
+				"arrow": "/images/cursor/OnePiece/6065/Arrow.ico",
+				"hand": "/images/cursor/OnePiece/6065/Hand.ico"
+			},
+			{
+				"id": "6337",
+				"cnname": "乔拉可尔·米霍克",
+				"enname": "Dracule Mihawk",
+				"logo": "/images/cursor/OnePiece/6337/cursors-logo.png",
+				"arrow": "/images/cursor/OnePiece/6337/Arrow.ico",
+				"hand": "/images/cursor/OnePiece/6337/Hand.ico"
+			},
+			{
+				"id": "6517",
+				"cnname": "文斯莫克·尼治",
+				"enname": "Vinsmoke.Niji",
+				"logo": "/images/cursor/OnePiece/6517/cursors-logo.png",
+				"arrow": "/images/cursor/OnePiece/6517/Arrow.ico",
+				"hand": "/images/cursor/OnePiece/6517/Hand.ico"
+			},
+			{
+				"id": "6936",
+				"cnname": "乌塔",
+				"enname": "Uta",
+				"logo": "/images/cursor/OnePiece/6936/cursors-logo.png",
+				"arrow": "/images/cursor/OnePiece/6936/Arrow.ico",
+				"hand": "/images/cursor/OnePiece/6936/Hand.ico"
+			},
+			{
+				"id": "7132",
+				"cnname": "巴基",
+				"enname": "Buggy",
+				"logo": "/images/cursor/OnePiece/7132/cursors-logo.png",
+				"arrow": "/images/cursor/OnePiece/7132/Arrow.ico",
+				"hand": "/images/cursor/OnePiece/7132/Hand.ico"
+			},
+			{
+				"id": "7210",
+				"cnname": "贝宝",
+				"enname": "Bepo",
+				"logo": "/images/cursor/OnePiece/7210/cursors-logo.png",
+				"arrow": "/images/cursor/OnePiece/7210/Arrow.ico",
+				"hand": "/images/cursor/OnePiece/7210/Hand.ico"
+			},
+			{
+				"id": "7249",
+				"cnname": "佩罗娜",
+				"enname": "Perona",
+				"logo": "/images/cursor/OnePiece/7249/cursors-logo.png",
+				"arrow": "/images/cursor/OnePiece/7249/Arrow.ico",
+				"hand": "/images/cursor/OnePiece/7249/Hand.ico"
+			},
+			{
+				"id": "7520",
+				"cnname": "爱德华·纽盖特",
+				"enname": "Edward Newgate",
+				"logo": "/images/cursor/OnePiece/7520/cursors-logo.png",
+				"arrow": "/images/cursor/OnePiece/7520/Arrow.ico",
+				"hand": "/images/cursor/OnePiece/7520/Hand.ico"
+			},
+			{
+				"id": "764",
+				"cnname": "蒙奇·D·路飞",
+				"enname": "Monkey D. Luffy",
+				"logo": "/images/cursor/OnePiece/764/cursors-logo.png",
+				"arrow": "/images/cursor/OnePiece/764/Arrow.ico",
+				"hand": "/images/cursor/OnePiece/764/Hand.ico"
+			},
+			{
+				"id": "7841",
+				"cnname": "山姆",
+				"enname": "Sham",
+				"logo": "/images/cursor/OnePiece/7841/cursors-logo.png",
+				"arrow": "/images/cursor/OnePiece/7841/Arrow.ico",
+				"hand": "/images/cursor/OnePiece/7841/Hand.ico"
+			},
+			{
+				"id": "7992",
+				"cnname": "妮可·欧尔比雅",
+				"enname": "Nico Olvia",
+				"logo": "/images/cursor/OnePiece/7992/cursors-logo.png",
+				"arrow": "/images/cursor/OnePiece/7992/Arrow.ico",
+				"hand": "/images/cursor/OnePiece/7992/Hand.ico"
+			},
+			{
+				"id": "8448",
+				"cnname": "布治",
+				"enname": "Buchi",
+				"logo": "/images/cursor/OnePiece/8448/cursors-logo.png",
+				"arrow": "/images/cursor/OnePiece/8448/Arrow.ico",
+				"hand": "/images/cursor/OnePiece/8448/Hand.ico"
+			},
+			{
+				"id": "8972",
+				"cnname": "蒙奇·D·卡普",
+				"enname": "Monkey D Garp",
+				"logo": "/images/cursor/OnePiece/8972/cursors-logo.png",
+				"arrow": "/images/cursor/OnePiece/8972/Arrow.ico",
+				"hand": "/images/cursor/OnePiece/8972/Hand.ico"
+			}
+		]
+	},
+	{
+		"id": 4,
+		"cnname": "一拳超人",
+		"enname": "OnePunchMan",
+		"items": [
+			{
+				"id": "1344",
+				"cnname": "埼玉",
+				"enname": "Saitama",
+				"logo": "/images/cursor/OnePunchMan/1344/cursors-logo.png",
+				"arrow": "/images/cursor/OnePunchMan/1344/Arrow.ico",
+				"hand": "/images/cursor/OnePunchMan/1344/Hand.ico"
+			}
+		]
+	}
 ]

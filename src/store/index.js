@@ -27,7 +27,7 @@ export const mainStore = defineStore("main", {
 			playerAutoplay: false, // 是否自动播放
 			playerLoop: "all", // 循环播放 "all", "one", "none"
 			playerOrder: "list", // 循环顺序 "list", "random"
-            weatherType: "QWeather"
+			weatherType: "QWeather"
 		};
 	},
 	getters: {
