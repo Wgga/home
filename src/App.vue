@@ -1,6 +1,6 @@
 <template>
 	<!-- 加载 -->
-	<!-- <Loading /> -->
+	<Loading />
 	<!-- 壁纸 -->
 	<Background @loadComplete="loadComplete" />
 	<!-- 主界面 -->

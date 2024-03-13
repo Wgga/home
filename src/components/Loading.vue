@@ -1,7 +1,10 @@
 <template>
 	<div id="loader-wrapper" :class="store.imgLoadStatus ? 'loaded' : null">
 		<div class="loader">
-			<div class="loader-circle" />
+			<div class="base">
+				<div class="cube" v-for="(x, index) in cubelist" :key="index"></div>
+			</div>
+			<!-- <div class="loader-circle" /> -->
 			<div class="loader-text">
 				<span class="name">
 					{{ siteName }}
@@ -18,6 +21,7 @@
 import { mainStore } from "@/store";
 
 const store = mainStore();
+const cubelist = new Array(9).fill(null);
 
 // 配置
 const siteName = import.meta.env.VITE_SITE_NAME;
@@ -88,6 +92,7 @@ const siteName = import.meta.env.VITE_SITE_NAME;
 			z-index: 2;
 			margin-top: 40px;
 			font-size: 24px;
+			transform: translateY(150px);
 
 			.tip {
 				margin-top: 6px;
@@ -128,6 +133,10 @@ const siteName = import.meta.env.VITE_SITE_NAME;
 				opacity: 0;
 				transition: opacity 0.3s ease-out;
 			}
+
+			.base {
+				display: none;
+			}
 		}
 
 		.loader-section {
@@ -142,9 +151,98 @@ const siteName = import.meta.env.VITE_SITE_NAME;
 			}
 		}
 	}
+
+	.base {
+		height: 9em;
+		left: 50%;
+		margin: -7.5em;
+		padding: 3em;
+		position: absolute;
+		top: 40%;
+		width: 9em;
+		transform: rotateX(45deg) rotateZ(45deg);
+		transform-style: preserve-3d;
+		z-index: 99;
+		box-sizing: initial;
+
+		.cube,
+		.cube:after,
+		.cube:before {
+			content: '';
+			float: left;
+			height: 3em;
+			position: absolute;
+			width: 3em;
+		}
+
+		/* Top */
+		.cube {
+			background-color: #E34361;
+			position: relative;
+			transform: translateZ(3em);
+			transform-style: preserve-3d;
+			transition: .25s;
+			box-shadow: 13em 13em 1.5em rgba(0, 0, 0, 0.1);
+			animation: anim 1s infinite;
+
+			&:after {
+				background-color: #3BB777;
+				transform: rotateX(-90deg) translateY(3em);
+				transform-origin: 100% 100%;
+			}
+
+			&:before {
+				background-color: #3BB777;
+				transform: rotateY(90deg) translateX(3em);
+				transform-origin: 100% 0;
+			}
+
+			&:nth-child(1) {
+				animation-delay: 0.05s;
+			}
+
+			&:nth-child(2) {
+				animation-delay: 0.1s;
+			}
+
+			&:nth-child(3) {
+				animation-delay: 0.15s;
+			}
+
+			&:nth-child(4) {
+				animation-delay: 0.2s;
+			}
+
+			&:nth-child(5) {
+				animation-delay: 0.25s;
+			}
+
+			&:nth-child(6) {
+				animation-delay: 0.3s;
+			}
+
+			&:nth-child(7) {
+				animation-delay: 0.35s;
+			}
+
+			&:nth-child(8) {
+				animation-delay: 0.4s;
+			}
+
+			&:nth-child(9) {
+				animation-delay: 0.45s;
+			}
+		}
+	}
 }
 
-@keyframes spin {
+@keyframes anim {
+	50% {
+		transform: translateZ(0.5em);
+	}
+}
+
+/* @keyframes spin {
 	0% {
 		transform: rotate(0deg);
 	}
@@ -162,5 +260,5 @@ const siteName = import.meta.env.VITE_SITE_NAME;
 	100% {
 		transform: rotate(-360deg);
 	}
-}
+} */
 </style>
